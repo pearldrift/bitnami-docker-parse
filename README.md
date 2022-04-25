@@ -13,7 +13,7 @@ Trademarks: This software listing is packaged by Bitnami. The respective tradema
 ### Docker Compose
 
 ```console
-$ curl -sSL https://raw.githubusercontent.com/bitnami/bitnami-docker-parse/master/docker-compose.yml > docker-compose.yml
+$ curl -sSL https://raw.githubusercontent.com/pearldrift/bitnami-docker-parse/master/docker-compose.yml > docker-compose.yml
 $ docker-compose up -d
 ```
 
@@ -63,7 +63,7 @@ Running Parse with a database server is the recommended way. You can either use 
 The main folder of this repository contains a functional [`docker-compose.yml`](https://github.com/bitnami/bitnami-docker-parse/blob/master/docker-compose.yml) file. Run the application using it as shown below:
 
 ```console
-$ curl -sSL https://raw.githubusercontent.com/bitnami/bitnami-docker-parse/master/docker-compose.yml > docker-compose.yml
+$ curl -sSL https://raw.githubusercontent.com/pearldrift/bitnami-docker-parse/master/docker-compose.yml > docker-compose.yml
 $ docker-compose up -d
 ```
 
@@ -107,7 +107,7 @@ To avoid inadvertent removal of these volumes you can [mount host directories as
 
 #### Mount host directories as data volumes with Docker Compose
 
-This requires a minor change to the [`docker-compose.yml`](https://github.com/bitnami/bitnami-docker-parse/blob/master/docker-compose.yml) file present in this repository:
+This requires a minor change to the [`docker-compose.yml`](https://github.com/pearldrift/bitnami-docker-parse/blob/master/docker-compose.yml) file present in this repository:
 
 ```yaml
   mongodb:
@@ -154,7 +154,7 @@ In this case you need to specify the directories to mount on the run command. Th
 
 ## Upgrade this application
 
-Bitnami provides up-to-date versions of Mongodb and Parse, including security patches, soon after they are made upstream. We recommend that you follow these steps to upgrade your container. We will cover here the upgrade of the Parse container. For the Mongodb upgrade see https://github.com/bitnami/bitnami-docker-mongodb/blob/master/README.md#upgrade-this-image
+Bitnami provides up-to-date versions of Mongodb and Parse, including security patches, soon after they are made upstream. We recommend that you follow these steps to upgrade your container. We will cover here the upgrade of the Parse container. For the Mongodb upgrade see https://github.com/pearldrift/bitnami-docker-mongodb/blob/master/README.md#upgrade-this-image
 
 1. Get the updated images:
 
